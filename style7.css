@@ -57,6 +57,15 @@
     gap: 12px;
   }
 }
+:root{
+  --bg-light: #b7ab96;     /* coklat muda */
+  --brown-dark: #b6978a;   /* coklat tua */
+  --accent: #ba8a76;
+  --text-dark:#3b2b24;
+}
+body {
+  background: var(--bg-light);
+}
 
 
 /* reset */
