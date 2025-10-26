@@ -1,3 +1,42 @@
+/* === NAVBAR === */
+.navbar {
+  background-color: var(--brown-dark);
+  color: #fff;
+  padding: 14px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #f1ecec;
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #fce7c8;
+}
+
+
 /* reset */
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
